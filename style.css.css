@@ -1,0 +1,121 @@
+p{
+    font-size: 250%;
+    align-items: flex-end;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h4{
+    font-size: 80px;
+    background-color: blue;
+    color: white;
+    justify-content: flex-start;
+}
+h1{
+    width: 40%;
+   font-size: 50px;
+    color: black;
+    justify-content: flex-start;
+
+}
+body{
+    background-color: white;
+    color: black;
+    font-family: sans-serif ;
+    gap: 20px;
+
+}
+h2{
+    width: 50%;
+    font-size: 50px;
+}
+
+   h3{ width: 300px;
+    height: 50px;
+    border: 3px solid blue;
+     font-size:40px;
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+border-bottom: 34px;
+justify-content: flex-end;
+align-items: flex-end;
+}
+  
+[class^="hero"] img{
+    width: 50%;
+    height: 20%;
+    border-radius: 40px;
+    width: 40%; 
+    margin-right: auto;
+    margin-left: auto;
+    
+     
+}
+.navbar{
+background-color: blue;
+
+height: 44px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+nav a{
+font-size: 50px;
+text-decoration: none;
+
+
+}
+.legend{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start; 
+    border: solid;
+    width: 300px;
+    height: 40%;
+    gap: 20px;
+   
+}
+.river{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start;
+    border: solid;
+    width: 300px;
+    height: 40%;
+    gap: 20px;
+   
+}
+.boat{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:flex-start; 
+   width: 300px;
+   border: solid;
+   height: 40%;
+   gap: 20px;
+   
+}
+.button button{
+    font-size: 40px;
+    /* color: #adfa02; */
+    color: yellow;
+    /* color: ; */
+    background-color:blue;
+    /* background-color:#adfa02; */
+    padding: 15px 20px;
+    border-radius:  20px 20px;
+    border: none;
+    }
+
+
+    .foot{
+        display: flex;
+        justify-content: flex-end;
+    }
